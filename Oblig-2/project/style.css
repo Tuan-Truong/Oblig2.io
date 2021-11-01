@@ -1,0 +1,127 @@
+@font-face {
+  src: url(fonts/Lato-Regular.ttf);
+  src: url(fonts/Montserrat-Bold.ttf);
+  font-family: lato;
+  font-family: Mon;
+}
+
+html{
+  font-size: 16px;
+}
+
+
+body {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-size: 1.2rem ;
+    font-family: lato, sans-serif;
+   
+  }
+
+  header{
+    height: 55vh;
+    background-image: url(../project/assets/img/studentsbg.png);
+    background-color: s #c5192d;
+    width:85%;
+  }
+
+  main{
+    box-shadow: 0 0 1px 0 darkgrey;
+    background-color: whitesmoke;
+    position: relative;
+
+  }
+
+
+
+ul {
+  font-size: 14px;
+}
+
+
+h1{
+  font-size: 4rem;
+  font-family: Mon, sans-serif;
+}
+
+h2{
+  font-size: 2.2rem;
+  font-family: Mon, sans-serif;
+}
+
+h3{
+  font-family: Mon, sans-serif;
+}
+
+p {
+  max-width:70ch;
+  line-height: 1.5;
+  
+}
+
+::marker {
+  content: '';
+}
+
+li {
+  padding-left: 0;
+  text-indent: -2rem;
+}
+
+li:nth-child(3n+1)::before {
+  content: "\1F64C";
+  width: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+li:nth-child(3n+2)::before {
+  content: "\1F3EB ";
+  width: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+li:nth-child(3n)::before {
+  content: "\1F4DA ";
+  width: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+
+header, main, footer{
+  width:85%;
+}
+
+article{
+   border: 5px solid grey;
+   margin-bottom: 7px;
+}
+article div{
+    width:45%;
+    float: right;  
+}
+article img{
+   width:45%;
+}
+#intro-container{
+  min-height: 17vh;
+  margin-top: 7px;
+}
+#intro-container div:first-child{
+    width:45%;
+    background-color: #c5192d;
+    float:left;
+}
+#intro-container div:second-child{
+  width:45%;
+  float:right;
+}
+
+
+
+
+
